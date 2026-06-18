@@ -14,3 +14,15 @@ console.log(fun([12,1,5,1]))
 function fun2(arr){
     return[...new Set(arr)]
 }
+
+//duplicate characters in a string
+function characters(str){
+    for(i=0;i<Str.length;i++){
+        let result = " "
+        if(!result.includes(str[i])){
+            result +=str[i]
+        }
+    }
+    return result
+}
+console.log(characters("hello world"))
